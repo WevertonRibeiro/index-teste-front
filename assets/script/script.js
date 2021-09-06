@@ -46,18 +46,18 @@ const closeBtn = document.querySelector('.close')
 openBtn.addEventListener('click', openMenuMobile)
 closeBtn.addEventListener('click', closeMenuMobile)
 
-// const elements = document.querySelectorAll('.scroll')
-// if (elements.length) {
-//     const windowHalf = window.innerHeight * 0.6;
+const elements = document.querySelectorAll('.scroll')
+if (elements.length) {
+    const windowHalf = window.innerHeight * 0.6;
 
-//     function animateScroll() {
-//         elements.forEach((element) => {
-//             const elementTop = element.getBoundingClientRect().top - windowHalf
-//             if (elementTop < 0) {
-//                 element.classList.add('active')
-//             }
-//         })
-//     }
-//     animateScroll()
-//     window.addEventListener('scroll', animateScroll)
-// }
+    function animateScroll() {
+        elements.forEach((element) => {
+            const elementTop = element.getBoundingClientRect().top - windowHalf
+            if (elementTop < 0) {
+                element.classList.add('active')
+            }
+        })
+    }
+    animateScroll()
+    window.addEventListener('scroll', animateScroll)
+}
