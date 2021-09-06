@@ -40,42 +40,42 @@ ul {
   }
 }
 
-// .btn {
-//   position: relative;
-//   cursor: pointer;
-//   font-weight: 600;
-//   padding: 12px 40px;
-//   display: block;
-//   border-radius: 5px;
-//   max-width: max-content;
-//   overflow: hidden;
-//   transition: all 0.3s ease;
-//   display: flex;
-//   border: 0;
-//   justify-content: center;
-//   align-items: center;
-//   &::after {
-//     content: "";
-//     background: rgba(255, 255, 255, 0.2);
-//     width: calc(200px + 50%);
-//     height: calc(200px + 50%);
-//     position: absolute;
-//     transform: scale(0);
-//     transition: 0.5s;
-//     border-radius: 50%;
-//   }
-//   &:hover {
-//     &:after {
-//       transform: scale(1);
-//       transition: 0.5s;
-//     }
-//   }
+.btn {
+  position: relative;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 12px 40px;
+  display: block;
+  border-radius: 5px;
+  max-width: max-content;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  display: flex;
+  border: 0;
+  justify-content: center;
+  align-items: center;
+  &::after {
+    content: "";
+    background: rgba(255, 255, 255, 0.2);
+    width: calc(200px + 50%);
+    height: calc(200px + 50%);
+    position: absolute;
+    transform: scale(0);
+    transition: 0.5s;
+    border-radius: 50%;
+  }
+  &:hover {
+    &:after {
+      transform: scale(1);
+      transition: 0.5s;
+    }
+  }
 
-//   &.primary {
-//     background: $rose;
-//     color: white;
-//   }
-// }
+  &.primary {
+    background: $rose;
+    color: white;
+  }
+}
 
 .text-size-1 {
   font-size: 14px;
